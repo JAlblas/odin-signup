@@ -1,3 +1,19 @@
-body {
-    color: 0F0F0F;
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.background-image {
+    flex: auto;
+    max-width: 40vw;
+}
+
+.background-image img {
+    max-width: 100%;
+}
+
+.content {
+    flex: auto;
+    background-color: #EFEFEF;
 }
