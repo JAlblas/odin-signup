@@ -1,7 +1,9 @@
+body {
+    margin: 0;
+}
+
 .container {
     display: flex;
-    flex-direction: row;
-
 }
 
 .background-image {
@@ -15,5 +17,31 @@
 
 .content {
     flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
     background-color: #EFEFEF;
+}
+
+.header,
+.form,
+.login {
+    padding: 20px 50px;
+}
+
+.form {
+    background-color: #FFF;
+}
+
+fieldset {
+    border: 0px;
+    padding: 10px 0px;
+    display: flex;
+    gap: 60px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
 }

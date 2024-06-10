@@ -24,12 +24,41 @@
             <div class="form">
                 <h3>Let's do this!</h3>
                 <form action="">
-                    <input type="text" name="" id="">
-                    <input type="text" name="" id="">
-                    <input type="email" name="" id="">
-                    <input type="tel" name="" id="">
-                    <input type="password" name="" id="">
-                    <input type="password" name="" id="">
+                    <fieldset class="name">
+                        <div class="field">
+                            <label for="first_name">first_name</label>
+                            <input type="text" name="first_name" id="first_name">
+                        </div>
+                        <div class="field">
+                            <label for="last_name">last_name</label>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="contact">
+                        <div class="field">
+                            <label for="email">email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="field">
+                            <label for="telephone">telephone</label>
+                            <input type="tel" name="telephone" id="telephone">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="password">
+                        <div class="field">
+                            <label for="password">password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="field">
+                            <label for="password_confirm">Confirm password</label>
+                            <input type="password" name="password_confirm" id="password_confirm">
+                        </div>
+
+                    </fieldset>
+
                 </form>
 
             </div>
