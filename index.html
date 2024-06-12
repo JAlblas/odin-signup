@@ -30,7 +30,7 @@
             </div>
             <div class="form">
                 <h3>Let's do this!</h3>
-                <form action="">
+                <form action="" id="signup">
                     <fieldset class="name">
                         <div class="field">
                             <label for="first_name">First name</label>
@@ -57,11 +57,11 @@
                     <fieldset class="password">
                         <div class="field">
                             <label for="password">password</label>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" required>
                         </div>
                         <div class="field">
                             <label for="password_confirm">Confirm password</label>
-                            <input type="password" name="password_confirm" id="password_confirm">
+                            <input type="password" name="password_confirm" id="password_confirm" required>
                         </div>
 
                     </fieldset>
@@ -70,7 +70,7 @@
 
             </div>
             <div class="login">
-                <button>Create account</button>
+                <button type="submit" form="signup">Create account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
