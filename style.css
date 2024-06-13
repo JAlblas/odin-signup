@@ -1,9 +1,7 @@
-/*
-TODO
-css variables
-font size rem
-*/
-
+:root {
+    --primary-color: #596C48;
+    --content-bg: #F9FAFB;
+}
 
 @font-face {
     font-family: Norse;
@@ -48,7 +46,6 @@ h1.odin {
     font-family: 'Norse';
     opacity: 1;
     font-size: clamp(0.8rem, 10vw, 5rem);
-
 }
 
 .logo-img {
@@ -61,10 +58,9 @@ h1.odin {
     flex-direction: column;
     justify-content: center;
     gap: 15px;
-    background-color: #F9FAFB;
+    background-color: var(--content-bg);
     max-width: 60%;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .header,
@@ -127,7 +123,8 @@ input:invalid {
 }
 
 .login button {
-    background-color: #596C48;
+    background-color: var(--primary-color);
+    ;
     color: #FFF;
     padding: 12px 40px;
     font-size: 1rem;
@@ -142,7 +139,7 @@ input:invalid {
 }
 
 .login a {
-    color: #596C48;
+    color: var(--primary-color);
     font-weight: bold;
     text-decoration: none;
 }
