@@ -8,25 +8,20 @@
     <script src="script.js"></script>
     <title>Signup</title>
 </head>
-
 <body>
     <div class="container">
         <div class="background-image">
             <div class="logo-container">
                 <img src="img/odin-lined.png" alt="" class="logo-img">
-                <h1 class="odin">
-                    ODIN
-                </h1>
-
+                <h1 class="odin">ODIN</h1>
             </div>
-
         </div>
         <div class="content">
             <div class="header">
-                <h2>This is not a real online service! You know you need something like this in your life to help you
+                <p>This is not a real online service! You know you need something like this in your life to help you
                     realize your deepest dreams. Sign up now to get started.
-                </h2>
-                <h2>You know you want to.</h2>
+                </p>
+                <p>You know you want to.</hp>
             </div>
             <div class="form">
                 <h3>Let's do this!</h3>
@@ -34,23 +29,22 @@
                     <fieldset class="name">
                         <div class="field">
                             <label for="first_name">First name</label>
-                            <input type="text" name="first_name" id="first_name">
+                            <input type="text" name="first_name" id="first_name" required>
                         </div>
                         <div class="field">
                             <label for="last_name">Last name</label>
-                            <input type="text" name="last_name" id="last_name">
+                            <input type="text" name="last_name" id="last_name" required>
                         </div>
-
                     </fieldset>
 
                     <fieldset class="contact">
                         <div class="field">
                             <label for="email">email</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                         <div class="field">
                             <label for="telephone">telephone</label>
-                            <input type="tel" name="telephone" id="telephone">
+                            <input type="tel" name="telephone" id="telephone" required>
                         </div>
                     </fieldset>
 
@@ -65,9 +59,7 @@
                         </div>
 
                     </fieldset>
-
                 </form>
-
             </div>
             <div class="login">
                 <button type="submit" form="signup">Create account</button>
